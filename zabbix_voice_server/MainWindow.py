@@ -27,7 +27,8 @@ class MainWindow(BaseWidget):
         self.event = threading.Event()
         self.sqldb_b = sqldb()
         self.clock = 0
-        self._SQLServerIP    = ControlText('地址', default='192.168.52.129')
+        self.first_login_mysql = 0
+        self._SQLServerIP    = ControlText('地址', default='192.168.126.15')
         self._SQLServerPort  = ControlText('端口',default='3306')
         self._SQLUser        = ControlText('用户',default='root')
         self._SQLPassword    = ControlPassword('密码',default='123456')
@@ -134,7 +135,7 @@ class MainWindow(BaseWidget):
                     pass
             else:
                 self.event.wait()
-                logger.info('主事件绿灯,准备查询内存数据库')
+                logger.info('主事件绿灯,准备查询内存数据库、更新AlertList_B')
 
 
             #time.sleep(10)
@@ -175,26 +176,42 @@ class MainWindow(BaseWidget):
         self.sqldb._execute(sql_init_table_alerts)
         self.alert_table = []
         while True:
-            logger.debug('正在执行数据库采集模块')
             sql_query = 'select * from alerts where  clock > {}'.format(self.clock)
             cursor.execute(sql_query)
             results = cursor.fetchall()
             self.conn.commit()
             if results:
-                for raw in results:
-                    self.clock = raw[4]
-                    timearray = time.localtime(self.clock)
-                    human_time = time.strftime('%Y%m%d %H:%M:%S', timearray)
-                    self.tx_queue1.put(raw)
-                    logger.info('语音播放通讯队列put成功一条')
-                    self.tx_queue2.put(raw)
-                    logger.info('告警流水通讯队列put成功一条')
-                    raw = list(raw)
-                    raw[4] = human_time
-                    raw = tuple(raw)
-                    self.sqldb._insert(tablename='alerts',values=str(raw))
-                    logger.info('告警列表数据表insert成功一条')
-                logger.info('当前最新告警时间:{}'.format(human_time))
+                logger.debug('数据库采集模块采集到告警数据')
+                if self.first_login_mysql == 0:
+                    for raw in results:
+                        self.clock = raw[4]
+                        timearray = time.localtime(self.clock)
+                        human_time = time.strftime('%Y%m%d %H:%M:%S', timearray)
+                        self.tx_queue2.put(raw)
+                        logger.info('告警流水通讯队列put成功一条')
+                        raw = list(raw)
+                        raw[4] = human_time
+                        raw = tuple(raw)
+                        self.sqldb._insert(tablename='alerts',values=str(raw))
+                        logger.info('告警列表数据表insert成功一条')
+                    self.first_login_mysql = 1
+                else:
+                    for raw in results:
+                        self.clock = raw[4]
+                        timearray = time.localtime(self.clock)
+                        human_time = time.strftime('%Y%m%d %H:%M:%S', timearray)
+                        if VARIABLE.CLIENT_QUEUES:
+                            for client_queue in VARIABLE.CLIENT_QUEUES:
+                                client_queue.put(raw)
+                                logger.info('客户端通讯队列put成功一条')
+                        self.tx_queue2.put(raw)
+                        logger.info('历史流水通讯队列put成功一条')
+                        raw = list(raw)
+                        raw[4] = human_time
+                        raw = tuple(raw)
+                        self.sqldb._insert(tablename='alerts', values=str(raw))
+                        logger.info('server内存数据表insert成功一条')
+                logger.info('当前最新告警流水时间:{}'.format(human_time))
                 logger.info('通讯队列tx_queue1消息数：{}'.format(self.tx_queue1.qsize()))
                 logger.info('通讯队列tx_queue2消息数：{}'.format(self.tx_queue2.qsize()))
                 self.event.set()

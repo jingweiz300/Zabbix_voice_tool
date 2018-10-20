@@ -1,4 +1,302 @@
-2018-10-20 10:40:29,754 - MainThread ] - INFO: 监听服务线程启动成功
-2018-10-20 10:40:29,755 - Thread-8 ] - INFO: 监听服务运行中
-2018-10-20 10:40:30,189 - MainThread ] - INFO: 通讯队列初始化完成
-2018-10-20 10:40:30,305 - MainThread ] - INFO: MainWindow.__init__ 初始化完成
+2018-10-21 00:44:12,828 - MainThread ] - INFO: 监听服务线程启动成功
+2018-10-21 00:44:12,837 - Thread-1 ] - INFO: 监听服务运行中
+2018-10-21 00:44:13,135 - MainThread ] - INFO: 通讯队列初始化完成
+2018-10-21 00:44:14,082 - MainThread ] - INFO: MainWindow.__init__ 初始化完成
+2018-10-21 00:44:15,480 - MainThread ] - INFO: 数据库连接初始化完成
+2018-10-21 00:44:17,073 - collect_thread ] - INFO: zabbix数据库连接指针初始化完成
+2018-10-21 00:44:17,073 - MainThread ] - INFO: 采集模块线程启动成功
+2018-10-21 00:44:17,074 - MainThread ] - INFO: 告警流水刷新线程A启动成功
+2018-10-21 00:44:17,075 - MainThread ] - INFO: 告警列表刷新线程B启动成功
+2018-10-21 00:44:17,077 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 00:44:17,078 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:44:17,079 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:44:17,080 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:44:17,080 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:44:17,080 - collect_thread ] - INFO: 当前最新告警时间:20181021 00:36:14
+2018-10-21 00:44:17,080 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 00:44:17,080 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：5
+2018-10-21 00:44:17,081 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 00:44:17,081 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 00:44:17,081 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 00:44:17,125 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 00:44:31,684 - Thread-2 ] - INFO: 监测到连接<socket.socket fd=3104, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 50457)>来自('127.0.0.1', 50457)
+2018-10-21 00:44:31,684 - Thread-2 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 50457)
+2018-10-21 00:44:33,357 - Thread-2 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 50457)
+2018-10-21 00:44:33,358 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 50457)
+2018-10-21 00:44:34,359 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 50457)
+2018-10-21 00:44:35,360 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 50457)
+2018-10-21 00:44:36,361 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 50457)
+2018-10-21 00:44:37,362 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 50457)
+2018-10-21 00:44:38,863 - Thread-2 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 50457)
+2018-10-21 00:45:07,092 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 00:45:07,092 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 00:45:07,092 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:45:07,092 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:45:07,093 - collect_thread ] - INFO: 当前最新告警时间:20181021 00:45:06
+2018-10-21 00:45:07,093 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 00:45:07,093 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 00:45:07,093 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 00:45:07,093 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 00:45:07,094 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 00:45:07,151 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 00:45:07,877 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 50457)
+2018-10-21 00:53:21,453 - Thread-3 ] - INFO: 监测到连接<socket.socket fd=3156, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 51067)>来自('127.0.0.1', 51067)
+2018-10-21 00:53:21,453 - Thread-3 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 51067)
+2018-10-21 00:53:33,285 - Thread-3 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 51067)
+2018-10-21 00:53:33,285 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:53:34,286 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:53:35,287 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:53:36,288 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:53:37,290 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:53:38,290 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:53:39,791 - Thread-3 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 51067)
+2018-10-21 00:54:47,251 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 当前最新告警时间:20181021 00:54:45
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 00:54:47,252 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 00:54:47,253 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 00:54:47,253 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 00:54:47,296 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 00:54:47,833 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51067)
+2018-10-21 00:54:48,142 - Thread-2 ] - INFO: 来自('127.0.0.1', 50457)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 00:55:13,370 - Thread-4 ] - INFO: 监测到连接<socket.socket fd=3120, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 51192)>来自('127.0.0.1', 51192)
+2018-10-21 00:55:13,370 - Thread-4 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 51192)
+2018-10-21 00:55:14,939 - Thread-4 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 51192)
+2018-10-21 00:55:14,940 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:15,940 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:16,941 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:17,942 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:18,943 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:19,944 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:20,945 - Thread-4 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51192)
+2018-10-21 00:55:22,447 - Thread-4 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 51192)
+2018-10-21 01:00:46,132 - Thread-5 ] - INFO: 监测到连接<socket.socket fd=3096, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 51586)>来自('127.0.0.1', 51586)
+2018-10-21 01:00:46,132 - Thread-5 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 51586)
+2018-10-21 01:00:51,062 - Thread-5 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 51586)
+2018-10-21 01:00:51,062 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:52,063 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:53,064 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:54,065 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:55,066 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:56,067 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:57,067 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:00:58,569 - Thread-5 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 51586)
+2018-10-21 01:02:17,396 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 01:02:17,396 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:02:17,396 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:02:17,396 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 当前最新告警时间:20181021 01:02:16
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 01:02:17,397 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 01:02:17,397 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 01:02:17,397 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 01:02:17,454 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 01:02:17,600 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:02:17,635 - Thread-4 ] - INFO: 来自('127.0.0.1', 51192)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 01:02:18,032 - Thread-3 ] - INFO: 来自('127.0.0.1', 51067)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 01:04:37,431 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 01:04:37,432 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:04:37,432 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:04:37,432 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:04:37,432 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:04:37,432 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 01:04:37,433 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 01:04:37,433 - collect_thread ] - INFO: 当前最新告警时间:20181021 01:04:34
+2018-10-21 01:04:37,433 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 01:04:37,433 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 01:04:37,434 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 01:04:37,434 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 01:04:37,434 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 01:04:37,492 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 01:04:37,664 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:09:17,500 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 01:09:17,500 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:09:17,500 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:09:17,501 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:09:17,501 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:09:17,501 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 01:09:17,501 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 01:09:17,502 - collect_thread ] - INFO: 当前最新告警时间:20181021 01:09:16
+2018-10-21 01:09:17,502 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 01:09:17,502 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 01:09:17,502 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 01:09:17,502 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 01:09:17,508 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 01:09:17,613 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 01:09:17,786 - Thread-5 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 51586)
+2018-10-21 01:10:25,607 - Thread-6 ] - INFO: 监测到连接<socket.socket fd=600, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 52236)>来自('127.0.0.1', 52236)
+2018-10-21 01:10:25,607 - Thread-6 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 52236)
+2018-10-21 01:10:27,569 - Thread-6 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 52236)
+2018-10-21 01:10:27,570 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:28,571 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:29,572 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:30,572 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:31,573 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:32,575 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:33,575 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:34,576 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:35,577 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:36,578 - Thread-6 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52236)
+2018-10-21 01:10:38,078 - Thread-6 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 52236)
+2018-10-21 01:21:49,551 - Thread-7 ] - INFO: 监测到连接<socket.socket fd=3152, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 52986)>来自('127.0.0.1', 52986)
+2018-10-21 01:21:49,552 - Thread-7 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 52986)
+2018-10-21 01:21:51,296 - Thread-7 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 52986)
+2018-10-21 01:21:51,297 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:52,298 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:53,299 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:54,299 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:55,300 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:56,301 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:57,302 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:58,303 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:21:59,304 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:22:00,305 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:22:01,805 - Thread-7 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 52986)
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:22:57,702 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 01:22:57,703 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 01:22:57,703 - collect_thread ] - INFO: 当前最新告警时间:20181021 01:22:55
+2018-10-21 01:22:57,703 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 01:22:57,703 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 01:22:57,703 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 01:22:57,704 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 01:22:57,704 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 01:22:57,781 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 01:22:57,845 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:22:58,175 - Thread-5 ] - INFO: 来自('127.0.0.1', 51586)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 01:22:58,427 - Thread-6 ] - INFO: 来自('127.0.0.1', 52236)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 01:24:17,724 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 01:24:17,724 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:24:17,724 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:24:17,724 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:24:17,724 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:24:17,725 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:24:17,725 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:24:17,725 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 01:24:17,725 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 01:24:17,726 - collect_thread ] - INFO: 当前最新告警时间:20181021 01:24:16
+2018-10-21 01:24:17,726 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 01:24:17,726 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 01:24:17,726 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 01:24:17,726 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 01:24:17,726 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 01:24:17,889 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 01:24:17,894 - Thread-7 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 52986)
+2018-10-21 01:26:36,196 - Thread-8 ] - INFO: 监测到连接<socket.socket fd=3252, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 53334)>来自('127.0.0.1', 53334)
+2018-10-21 01:26:36,196 - Thread-8 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 53334)
+2018-10-21 01:26:38,055 - Thread-8 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 53334)
+2018-10-21 01:26:38,056 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:39,057 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:40,058 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:41,059 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:42,060 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:43,061 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:44,063 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:45,063 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:46,064 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:47,065 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:48,066 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:49,067 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:26:50,568 - Thread-8 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 53334)
+2018-10-21 01:30:07,812 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 01:30:07,813 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,813 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,813 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,813 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 客户端通讯队列put成功一条
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 当前最新告警时间:20181021 01:30:04
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：1
+2018-10-21 01:30:07,814 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 01:30:07,814 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 01:30:07,815 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 01:30:07,858 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 01:30:08,048 - Thread-7 ] - INFO: 来自('127.0.0.1', 52986)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 01:30:08,708 - Thread-8 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 53334)
+2018-10-21 01:37:21,675 - Thread-9 ] - INFO: 监测到连接<socket.socket fd=3288, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 54133)>来自('127.0.0.1', 54133)
+2018-10-21 01:37:21,676 - Thread-9 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 54133)
+2018-10-21 01:37:24,470 - Thread-9 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 54133)
+2018-10-21 01:37:24,471 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:25,471 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:26,473 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:27,473 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:28,474 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:29,475 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:30,476 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:31,477 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:32,477 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:33,478 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:34,479 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:35,479 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:36,480 - Thread-9 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 54133)
+2018-10-21 01:37:37,981 - Thread-9 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 54133)
+2018-10-21 02:00:31,778 - Thread-10 ] - INFO: 监测到连接<socket.socket fd=3280, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 55806)>来自('127.0.0.1', 55806)
+2018-10-21 02:00:31,779 - Thread-10 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 55806)
+2018-10-21 02:03:56,456 - Thread-10 ] - INFO: 来自('127.0.0.1', 55806)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 02:04:01,348 - Thread-11 ] - INFO: 监测到连接<socket.socket fd=3284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 56046)>来自('127.0.0.1', 56046)
+2018-10-21 02:04:01,348 - Thread-11 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 56046)
+2018-10-21 02:04:04,476 - Thread-11 ] - INFO: Server receive the msg: from ('127.0.0.1', 56046)
+2018-10-21 02:04:04,477 - Thread-11 ] - INFO: 来自('127.0.0.1', 56046)线程请求内容非法断开
+2018-10-21 02:04:04,478 - Thread-12 ] - INFO: 监测到连接<socket.socket fd=3284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 56054)>来自('127.0.0.1', 56054)
+2018-10-21 02:04:04,479 - Thread-12 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 56054)
+2018-10-21 02:04:05,978 - Thread-11 ] - INFO: 来自('127.0.0.1', 56046)连接线程异常断开:[WinError 10038] 在一个非套接字上尝试了一个操作。
+2018-10-21 02:04:22,688 - Thread-12 ] - INFO: 来自('127.0.0.1', 56054)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 02:04:27,490 - Thread-13 ] - INFO: 监测到连接<socket.socket fd=3164, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 56078)>来自('127.0.0.1', 56078)
+2018-10-21 02:04:27,490 - Thread-13 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 56078)
+2018-10-21 02:04:54,233 - Thread-13 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 56078)
+2018-10-21 02:04:54,234 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:04:55,236 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:04:56,238 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:04:57,239 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:04:58,240 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:04:59,241 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:00,243 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:01,245 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:02,246 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:03,248 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:04,249 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:05,250 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:06,251 - Thread-13 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56078)
+2018-10-21 02:05:07,753 - Thread-13 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 56078)
+2018-10-21 02:06:33,640 - Thread-14 ] - INFO: 监测到连接<socket.socket fd=3312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 56218)>来自('127.0.0.1', 56218)
+2018-10-21 02:06:33,641 - Thread-14 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 56218)
+2018-10-21 02:06:35,560 - Thread-14 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 56218)
+2018-10-21 02:06:35,560 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:36,561 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:37,562 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:38,563 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:39,564 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:40,566 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:41,567 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:42,567 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:43,568 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:44,570 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:45,570 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:46,571 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:47,571 - Thread-14 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 56218)
+2018-10-21 02:06:49,072 - Thread-14 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 56218)

@@ -29,9 +29,8 @@ def onStart(name):
 
 def onWord(name, location, length):
     global speed_change,speed
-    print('word', name, location, length)
     if status_flag == 1:
-        pass
+        print('word', name, location, length)
     else:
         engine.stop()
 
@@ -46,7 +45,10 @@ def OnLisenVoiceCmd(cmd_queue):
     logger.info('监听请求服务运行中')
     conn, addr = sk.accept()
     while True:
-        req = conn.recv(1024).decode('utf-8')
+        try:
+            req = conn.recv(1024).decode('utf-8')
+        except ConnectionResetError:
+            conn, addr = sk.accept()
         if len(req):
             logger.info('监听模块收到前端发起的语音命令队列消息{0}'.format(req))
             req_msg = req
@@ -105,6 +107,11 @@ while True:
         logger.info('命令队列消息等待中')
         cmd_msg = cmd_queue.get().decode('utf-8')
         logger.info('语音模块收到监听模块的语音命令队列消息:{0}'.format(cmd_msg))
+        while 1:
+            if os.path.exists('OnWrite.txt'):
+                break
+            else:
+                pass
         try:
             if cmd_msg == 'start':
                 logger.info('语音播放引擎启动,当前播放位置:[line:{0}]'.format(raw_nums))

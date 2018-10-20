@@ -7,7 +7,7 @@ import os
 import socket
 from log import logger
 import threading
-
+from sqlite_local import sqldb
 
 
 def server_accept(address,authkey):
@@ -26,23 +26,35 @@ def thread_client(conn,addr):
     calctime = 0
     interval = 1.5
     timeout = 30
-    #conn.setblocking(0)
+    sqldb_l = sqldb()
+    client_queue = VARIABLE.ClientRegisterQueue()
     while True:
         try:
             time.sleep(interval)
             msg = conn.recv(1024).decode('utf-8')
             logger.info(f'Server receive the msg:{msg} from {addr}')
-            if msg == '请求发送告警内容':
+            if msg == '10000':
+                first_call_query = 'select * from alerts'
+                raws = sqldb_l._select(first_call_query)
+                *raws_before,raws_last =  raws
+                for raw in raws_before:
+                    response = str({'head':'101','data':raw}).encode('utf-8')
+                    conn.send(response)
+                    logger.info('Server send the msg:已完成发送给{0}'.format(addr))
+                    time.sleep(1)
+                response = str({'head': '100', 'data': raws_last}).encode('utf-8')
+                conn.send(response)
+                logger.info('Server send the msg:已完成发送给{0}'.format(addr))
+            elif msg == '10001':
                 while 1:
-                    if not VARIABLE.tx_queue1.empty():
-                        conn.send(VARIABLE.tx_queue1.get()[8].encode('utf-8'))
+                    if not client_queue.empty():
+                        response = str({'head':'100','data':client_queue.get()}).encode('utf-8')
+                        conn.send(response)
                         logger.info('Server send the msg:已完成发送给{0}'.format(addr))
-                        break
                     else:
                         pass
                     time.sleep(1)
             else:
-                #conn.shutdown(2)
                 conn.close()
                 logger.info('来自{0}线程请求内容非法断开'.format(addr))
         except Exception as e:
