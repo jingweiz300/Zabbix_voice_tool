@@ -1,0 +1,2 @@
+2018-10-20 12:57:18,711 - MainThread ] - INFO: 连接到语音模块失败[Errno 61] Connection refused
+2018-10-20 12:57:20,380 - MainThread ] - INFO: ClientWindow.__init__ 初始化完成

@@ -1,0 +1,56 @@
+2018-10-18 10:11:33,421 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 13:57:43,270 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 13:57:43,270 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 13:57:52,303 - ReadProcess.py[line:29] - INFO: 语音播放:Problem name: 进程异常，请检查Host: Zabbix server
+
+2018-10-18 13:57:58,314 - ReadProcess.py[line:29] - INFO: 语音播放:Severity: Disaster
+
+2018-10-18 13:58:01,321 - ReadProcess.py[line:29] - INFO: 语音播放:
+
+2018-10-18 13:58:04,328 - ReadProcess.py[line:29] - INFO: 语音播放:Original problem ID: 17
+
+2018-10-18 13:58:07,335 - ReadProcess.py[line:29] - INFO: 语音播放:故障Problem started at 11:33:47 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 24Problem started at 11:36:22 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 26Problem started at 12:12:52 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 28Problem started at 13:40:17 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 35Problem started at 13:43:02 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 37Problem has been resolved at 13:47:07 on2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 37Problem started at 14:09:47 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 39Problem has been resolved at 13:28:37 on2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 39Problem started at 13:29:57 on 2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 41Problem has been resolved at 13:30:52 on2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 41Problem started at 13:34:42 on 2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 43
+2018-10-18 14:01:25,991 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:01:25,992 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:01:34,839 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:01:34,840 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:02:07,462 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:02:07,462 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:13:12,041 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:13:12,041 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:46:29,658 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:46:29,658 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:46:38,672 - ReadProcess.py[line:29] - INFO: 语音播放:Problem name: 进程异常，请检查Host: Zabbix server
+
+2018-10-18 14:46:44,684 - ReadProcess.py[line:29] - INFO: 语音播放:Severity: Disaster
+
+2018-10-18 14:46:47,694 - ReadProcess.py[line:29] - INFO: 语音播放:
+
+2018-10-18 14:46:50,701 - ReadProcess.py[line:29] - INFO: 语音播放:Original problem ID: 17
+
+2018-10-18 14:46:53,707 - ReadProcess.py[line:29] - INFO: 语音播放:故障Problem started at 11:33:47 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 24Problem started at 11:36:22 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 26Problem started at 12:12:52 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 28Problem started at 13:40:17 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 35Problem started at 13:43:02 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 37Problem has been resolved at 13:47:07 on2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 37Problem started at 14:09:47 on 2018.10.17Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 39Problem has been resolved at 13:28:37 on2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 39Problem started at 13:29:57 on 2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 41Problem has been resolved at 13:30:52 on2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 41Problem started at 13:34:42 on 2018.10.18Problem name: 进程异常，请检查Host: Zabbix serverSeverity: DisasterOriginal problem ID: 43Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:50:10,603 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:50:10,603 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-18 14:50:18,057 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-18 14:50:18,058 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-19 17:14:54,137 - ReadProcess.py[line:20] - INFO: 播放引擎初始化成功
+2018-10-19 17:14:54,139 - ReadProcess.py[line:29] - INFO: 语音播放:Problem started at 11:19:27 on 2018.10.17
+
+2018-10-19 18:38:34,132 - settings_manager.py[line:26] - INFO: added settings: pyforms_gui.settings
+2018-10-19 18:38:34,962 - log.py[line:33] - INFO: 播放引擎初始化成功
+2018-10-19 18:38:34,962 - log.py[line:33] - INFO: ClientWindow.__init__ 初始化完成
+2018-10-19 19:21:09,844 - settings_manager.py[line:26] - INFO: added settings: pyforms_gui.settings
+2018-10-19 19:21:10,699 - log.py[line:33] - INFO: 播放引擎初始化成功
+2018-10-19 19:21:10,699 - log.py[line:33] - INFO: ClientWindow.__init__ 初始化完成
+2018-10-19 19:23:30,028 - settings_manager.py[line:26] - INFO: added settings: pyforms_gui.settings
+2018-10-19 19:23:30,879 - log.py[line:33] - INFO: 播放引擎初始化成功
+2018-10-19 19:23:30,879 - log.py[line:33] - INFO: ClientWindow.__init__ 初始化完成
