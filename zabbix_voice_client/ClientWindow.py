@@ -163,6 +163,7 @@ class ClientWindow(BaseWidget):
                     self.ControlList_add(self._AppLog,raw,[0])
                 self.location = f.tell()
             time.sleep(5)
+            
     #持续接收服务端信息模块
     def OnRecv(self):
         while True:
