@@ -1,9 +1,5 @@
-
-from multiprocessing.connection import Listener
-import logging
 import VARIABLE
 import time
-import os
 import socket
 from log import logger
 import threading

@@ -1,7 +1,5 @@
 import logging
-import queue
 import pyttsx3
-import pickle
 import os
 from multiprocessing.connection import Client
 os.chdir(os.path.dirname(__file__))

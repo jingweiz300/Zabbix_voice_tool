@@ -1,4 +1,4 @@
-import pyforms
+
 from pyforms.basewidget import BaseWidget
 from pyforms.controls   import ControlButton
 from pyforms.controls import ControlText
@@ -6,12 +6,8 @@ from pyforms_gui.controls.control_password import ControlPassword
 from pyforms_gui.controls.control_list import ControlList
 from pyforms_gui.controls.control_label import ControlLabel
 import pymysql
-import pyttsx3
 import threading
-import queue
-import logging
 import time
-import multiprocessing
 import VARIABLE
 import os
 from log import logger

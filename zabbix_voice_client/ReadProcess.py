@@ -6,10 +6,7 @@ import threading
 import VARIABLE
 import queue
 import socket
-import json
 import re
-import multiprocessing
-#os.chdir(os.path.dirname(__file__))
 logging.basicConfig(level=logging.INFO,format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 logger=logging.getLogger('ReadProcess')
 '''
@@ -24,21 +21,19 @@ def onEnd(name, completed):
 
 
 def onStart(name):
-    #print('starting', name)
     pass
 
 
 def onWord(name, location, length):
     global speed_change,speed
     if status_flag == 1:
-        #print('word', name, location, length)
         pass
     else:
         engine.stop()
 
 def onEnd(name, completed):
-    #print('finishing', name, completed)  #
     pass
+
 def OnLisenVoiceCmd(cmd_queue):
     global status_flag, volume, speed, speed_change,volume_change
     sk = socket.socket()

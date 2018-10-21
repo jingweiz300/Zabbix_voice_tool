@@ -1,12 +1,6 @@
 import MainWindow
 import pyforms
 import threading
-import pyttsx3
-import logging
-import queue
-import time
-import VARIABLE
-import os
 import listen
 from log import logger
 
