@@ -11,3 +11,19 @@ Problem started at 01:09:13 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHo
 Problem has been resolved at 01:22:53 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 109\r\n
 Problem started at 01:24:13 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 111\r\n
 Problem has been resolved at 01:30:03 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 111\r\n
+Problem started at 02:10:03 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 113\r\n
+Problem started at 10:41:21 on 2018.10.21\r\nProblem name: Zabbix agent on Zabbix server is unreachable for 5 minutes\r\nHost: Zabbix server\r\nSeverity: Average\r\n\r\nOriginal problem ID: 114\r\n
+Problem has been resolved at 10:41:23 on 2018.10.21\r\nProblem name: Zabbix agent on Zabbix server is unreachable for 5 minutes\r\nHost: Zabbix server\r\nSeverity: Average\r\n\r\nOriginal problem ID: 114\r\n
+Problem has been resolved at13:09:13on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 113
+Problem started at 13:10:43 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 117
+Problem has been resolved at13:11:23on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 117
+Problem started at 13:12:23 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 119
+Problem has been resolved at13:13:23on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 119
+Problem started at 13:37:13 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 121
+Problem has been resolved at13:47:03on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 121
+Problem started at 13:48:23 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 123
+Problem has been resolved at13:48:53on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 123
+Problem started at 14:34:33 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 125
+Problem has been resolved at14:37:13on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 125
+Problem started at 14:39:43 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 127
+Problem has been resolved at15:02:03on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 127

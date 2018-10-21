@@ -1,0 +1,121 @@
+2018-10-21 16:26:40,537 - MainThread ] - INFO: 监听服务线程启动成功
+2018-10-21 16:26:40,549 - Thread-1 ] - INFO: 监听服务运行中
+2018-10-21 16:26:40,848 - MainThread ] - INFO: 通讯队列初始化完成
+2018-10-21 16:26:41,667 - MainThread ] - INFO: MainWindow.__init__ 初始化完成
+2018-10-21 16:26:43,162 - MainThread ] - INFO: 数据库连接初始化完成
+2018-10-21 16:26:44,914 - collect_thread ] - INFO: zabbix数据库连接指针初始化完成
+2018-10-21 16:26:44,914 - MainThread ] - INFO: 采集模块线程启动成功
+2018-10-21 16:26:44,915 - MainThread ] - INFO: 告警流水刷新线程A启动成功
+2018-10-21 16:26:44,915 - MainThread ] - INFO: 告警列表刷新线程B启动成功
+2018-10-21 16:26:44,920 - collect_thread ] - INFO: 数据库采集模块采集到告警数据
+2018-10-21 16:26:44,921 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,921 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,921 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,921 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,921 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,922 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,922 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,922 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,922 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,923 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,924 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,924 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,924 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,925 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,926 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,926 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,926 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,926 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,926 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,927 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,928 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,928 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,928 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,928 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,929 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,930 - collect_thread ] - INFO: 告警流水通讯队列put成功一条
+2018-10-21 16:26:44,930 - collect_thread ] - INFO: 告警列表数据表insert成功一条
+2018-10-21 16:26:44,930 - collect_thread ] - INFO: 当前最新告警流水时间:20181021 15:02:03
+2018-10-21 16:26:44,930 - collect_thread ] - INFO: 通讯队列tx_queue1消息数：0
+2018-10-21 16:26:44,930 - collect_thread ] - INFO: 通讯队列tx_queue2消息数：29
+2018-10-21 16:26:44,930 - collect_thread ] - INFO: 线程事件驱动更新为:True
+2018-10-21 16:26:44,931 - alertlist_thread_b ] - INFO: 主事件绿灯,准备查询内存数据库、更新AlertList_B
+2018-10-21 16:26:44,931 - alertlist_thread_a ] - INFO: 主事件绿灯,准备查询tx_queue2队列、更新AlertList_A
+2018-10-21 16:26:45,123 - alertlist_thread_b ] - INFO: 事件清除...
+2018-10-21 16:27:12,297 - Thread-2 ] - INFO: 监测到连接<socket.socket fd=2452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 58997)>来自('127.0.0.1', 58997)
+2018-10-21 16:27:12,297 - Thread-2 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 58997)
+2018-10-21 16:27:14,492 - Thread-2 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 58997)
+2018-10-21 16:27:14,494 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:16,495 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:18,496 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:20,500 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:22,503 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:24,503 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:26,505 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:28,506 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:30,507 - Thread-2 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 58997)
+2018-10-21 16:27:32,508 - Thread-2 ] - INFO: 来自('127.0.0.1', 58997)连接线程异常断开:[WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2018-10-21 16:27:37,088 - Thread-3 ] - INFO: 监测到连接<socket.socket fd=2448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 25000), raddr=('127.0.0.1', 59020)>来自('127.0.0.1', 59020)
+2018-10-21 16:27:37,089 - Thread-3 ] - INFO: 服务端同客户端通信线程启动:('127.0.0.1', 59020)
+2018-10-21 16:27:39,305 - Thread-3 ] - INFO: Server receive the msg:10000 from ('127.0.0.1', 59020)
+2018-10-21 16:27:39,307 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:41,307 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:43,308 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:45,309 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:47,309 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:49,310 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:51,312 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:53,312 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:55,313 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:57,314 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:27:59,315 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:01,316 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:03,317 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:05,318 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:07,319 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:09,320 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:11,321 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:13,322 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:15,323 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:17,323 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:19,324 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:21,326 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:23,326 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:25,327 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:27,327 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:29,329 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:31,330 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:33,331 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:35,331 - Thread-3 ] - INFO: Server send the msg:已完成发送给('127.0.0.1', 59020)
+2018-10-21 16:28:36,832 - Thread-3 ] - INFO: Server receive the msg:10001 from ('127.0.0.1', 59020)

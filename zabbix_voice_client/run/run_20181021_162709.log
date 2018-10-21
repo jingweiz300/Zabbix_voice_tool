@@ -1,0 +1,119 @@
+2018-10-21 14:38:26,208 - MainThread ] - INFO: ClientWindow.__init__ 初始化完成
+2018-10-21 14:38:30,091 - MainThread ] - INFO: 服务器连接成功
+2018-10-21 14:38:31,082 - MainThread ] - INFO: 打印日志线程启动成功
+2018-10-21 14:38:32,135 - MainThread ] - INFO: 连接到语音模块成功
+2018-10-21 14:38:35,356 - onrecv_thread ] - INFO: 请求获取告警通讯队列发送,请求功能号:10000
+2018-10-21 14:38:35,358 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (1, 3, 99, 1, '20181020 20:23:55', ' ', '', '故障: TOP进程异常', 'Problem started at 20:23:53 on 2018.10.20\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 99\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:35,358 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:37,358 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (2, 3, 101, 1, '20181020 20:50:06', ' ', '', '故障: TOP进程异常', 'Problem started at 20:50:03 on 2018.10.20\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 101\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:37,358 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:38,357 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:38,359 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 20:23:53 on 2018.10.20\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 99\r\n
+2018-10-21 14:38:38,360 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:38,361 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 20:50:03 on 2018.10.20\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 101\r\n
+2018-10-21 14:38:39,359 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (3, 3, 102, 1, '20181020 21:00:45', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at 21:00:43 on 2018.10.20\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 101\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 101, ' ')}
+2018-10-21 14:38:39,359 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:41,359 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (4, 3, 103, 1, '20181020 21:43:56', ' ', '', '故障: TOP进程异常', 'Problem started at 21:43:53 on 2018.10.20\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 103\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:41,360 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:41,363 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:41,363 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 21:00:43 on 2018.10.20\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 101\r\n
+2018-10-21 14:38:41,365 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:41,365 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 21:43:53 on 2018.10.20\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 103\r\n
+2018-10-21 14:38:43,360 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (5, 3, 104, 1, '20181021 00:36:14', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at 00:36:13 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 103\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 103, ' ')}
+2018-10-21 14:38:43,361 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:44,367 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:44,367 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 00:36:13 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 103\r\n
+2018-10-21 14:38:45,361 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (6, 3, 105, 1, '20181021 00:45:06', ' ', '', '故障: TOP进程异常', 'Problem started at 00:45:03 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 105\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:45,362 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:47,362 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (7, 3, 106, 1, '20181021 00:54:45', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at 00:54:43 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 105\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 105, ' ')}
+2018-10-21 14:38:47,363 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:47,369 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:47,370 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 00:45:03 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 105\r\n
+2018-10-21 14:38:47,371 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:47,372 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 00:54:43 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 105\r\n
+2018-10-21 14:38:49,364 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (8, 3, 107, 1, '20181021 01:02:16', ' ', '', '故障: TOP进程异常', 'Problem started at 01:02:13 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 107\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:49,364 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:50,373 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:50,374 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 01:02:13 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 107\r\n
+2018-10-21 14:38:51,364 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (9, 3, 108, 1, '20181021 01:04:34', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at 01:04:33 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 107\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 107, ' ')}
+2018-10-21 14:38:51,365 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:53,367 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (10, 3, 109, 1, '20181021 01:09:16', ' ', '', '故障: TOP进程异常', 'Problem started at 01:09:13 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 109\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:53,367 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:53,375 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:53,376 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 01:04:33 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 107\r\n
+2018-10-21 14:38:53,377 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:53,378 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 01:09:13 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 109\r\n
+2018-10-21 14:38:55,367 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (11, 3, 110, 1, '20181021 01:22:55', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at 01:22:53 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 109\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 109, ' ')}
+2018-10-21 14:38:55,368 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:56,380 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:56,381 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 01:22:53 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 109\r\n
+2018-10-21 14:38:57,369 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (12, 3, 111, 1, '20181021 01:24:16', ' ', '', '故障: TOP进程异常', 'Problem started at 01:24:13 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 111\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:38:57,369 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:59,369 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (13, 3, 112, 1, '20181021 01:30:04', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at 01:30:03 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 111\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 111, ' ')}
+2018-10-21 14:38:59,370 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:38:59,382 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:59,383 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 01:24:13 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 111\r\n
+2018-10-21 14:38:59,383 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:38:59,384 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 01:30:03 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 111\r\n
+2018-10-21 14:39:01,371 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (14, 3, 113, 1, '20181021 02:10:07', ' ', '', '故障: TOP进程异常', 'Problem started at 02:10:03 on 2018.10.21\\r\\nProblem name: TOP进程异常\\r\\nHost: Zabbix server\\r\\nSeverity: Disaster\\r\\n\\r\\nOriginal problem ID: 113\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:01,372 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:02,385 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:02,386 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 02:10:03 on 2018.10.21\r\nProblem name: TOP进程异常\r\nHost: Zabbix server\r\nSeverity: Disaster\r\n\r\nOriginal problem ID: 113\r\n
+2018-10-21 14:39:03,373 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (15, 3, 114, 1, '20181021 10:41:22', ' ', '', '故障: Zabbix agent on Zabbix server is unreachable for 5 minutes', 'Problem started at 10:41:21 on 2018.10.21\\r\\nProblem name: Zabbix agent on Zabbix server is unreachable for 5 minutes\\r\\nHost: Zabbix server\\r\\nSeverity: Average\\r\\n\\r\\nOriginal problem ID: 114\\r\\n', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:03,373 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:05,374 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (16, 3, 115, 1, '20181021 10:41:25', ' ', '', '故障恢复: Zabbix agent on Zabbix server is unreachable for 5 minutes', 'Problem has been resolved at 10:41:23 on 2018.10.21\\r\\nProblem name: Zabbix agent on Zabbix server is unreachable for 5 minutes\\r\\nHost: Zabbix server\\r\\nSeverity: Average\\r\\n\\r\\nOriginal problem ID: 114\\r\\n', 2, 3, 'No media defined for user.', 1, 0, 114, ' ')}
+2018-10-21 14:39:05,375 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:05,388 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:05,389 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 10:41:21 on 2018.10.21\r\nProblem name: Zabbix agent on Zabbix server is unreachable for 5 minutes\r\nHost: Zabbix server\r\nSeverity: Average\r\n\r\nOriginal problem ID: 114\r\n
+2018-10-21 14:39:05,390 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:05,390 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at 10:41:23 on 2018.10.21\r\nProblem name: Zabbix agent on Zabbix server is unreachable for 5 minutes\r\nHost: Zabbix server\r\nSeverity: Average\r\n\r\nOriginal problem ID: 114\r\n
+2018-10-21 14:39:07,375 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (17, 3, 116, 1, '20181021 13:09:13', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at13:09:13on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 113', 2, 3, 'No media defined for user.', 1, 0, 113, ' ')}
+2018-10-21 14:39:07,375 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:08,392 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:08,392 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at13:09:13on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 113
+2018-10-21 14:39:09,375 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (18, 3, 117, 1, '20181021 13:10:44', ' ', '', '故障: TOP进程异常', 'Problem started at 13:10:43 on 2018.10.21ProblemnameTOP进程异常\\r\\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 117', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:09,375 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:11,376 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (19, 3, 118, 1, '20181021 13:11:23', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at13:11:23on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 117', 2, 3, 'No media defined for user.', 1, 0, 117, ' ')}
+2018-10-21 14:39:11,376 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:11,394 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:11,395 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 13:10:43 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 117
+2018-10-21 14:39:11,395 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:11,396 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at13:11:23on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 117
+2018-10-21 14:39:13,377 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (20, 3, 119, 1, '20181021 13:12:26', ' ', '', '故障: TOP进程异常', 'Problem started at 13:12:23 on 2018.10.21ProblemnameTOP进程异常\\r\\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 119', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:13,377 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:14,397 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:14,398 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 13:12:23 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 119
+2018-10-21 14:39:15,378 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (21, 3, 120, 1, '20181021 13:13:26', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at13:13:23on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 119', 2, 3, 'No media defined for user.', 1, 0, 119, ' ')}
+2018-10-21 14:39:15,378 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:17,379 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (22, 3, 121, 1, '20181021 13:37:15', ' ', '', '故障: TOP进程异常', 'Problem started at 13:37:13 on 2018.10.21ProblemnameTOP进程异常\\r\\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 121', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:17,379 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:17,399 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:17,400 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at13:13:23on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 119
+2018-10-21 14:39:17,401 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:17,401 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 13:37:13 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 121
+2018-10-21 14:39:19,379 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (23, 3, 122, 1, '20181021 13:47:06', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at13:47:03on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 121', 2, 3, 'No media defined for user.', 1, 0, 121, ' ')}
+2018-10-21 14:39:19,379 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:20,403 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:20,404 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at13:47:03on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 121
+2018-10-21 14:39:21,380 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (24, 3, 123, 1, '20181021 13:48:24', ' ', '', '故障: TOP进程异常', 'Problem started at 13:48:23 on 2018.10.21ProblemnameTOP进程异常\\r\\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 123', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:21,381 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:23,381 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (25, 3, 124, 1, '20181021 13:48:54', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at13:48:53on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 123', 2, 3, 'No media defined for user.', 1, 0, 123, ' ')}
+2018-10-21 14:39:23,381 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:23,405 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:23,406 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 13:48:23 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 123
+2018-10-21 14:39:23,407 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:23,407 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at13:48:53on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 123
+2018-10-21 14:39:25,382 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '101', 'data': (26, 3, 125, 1, '20181021 14:34:35', ' ', '', '故障: TOP进程异常', 'Problem started at 14:34:33 on 2018.10.21ProblemnameTOP进程异常\\r\\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 125', 2, 3, 'No media defined for user.', 1, 0, ' ', ' ')}
+2018-10-21 14:39:25,382 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:26,409 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:26,409 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 14:34:33 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 125
+2018-10-21 14:39:27,383 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '100', 'data': (27, 3, 126, 1, '20181021 14:37:17', ' ', '', '故障恢复: TOP进程异常', 'Problem has been resolved at14:37:13on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 125', 2, 3, 'No media defined for user.', 1, 0, 125, ' ')}
+2018-10-21 14:39:27,383 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:27,384 - onrecv_thread ] - INFO: 请求获取告警通讯队列发送,请求功能号:10001
+2018-10-21 14:39:29,410 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:29,411 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem has been resolved at14:37:13on2018.10.21Problem name: TOP进程异常Host: Zabbix serverSeverity: DisasterOriginal problem ID: 125
+2018-10-21 14:39:49,894 - onrecv_thread ] - INFO: 请求获取告警通讯队列完成:{'head': '100', 'data': (28, 3, 127, 1, 1540103984, None, '', '故障: TOP进程异常', 'Problem started at 14:39:43 on 2018.10.21ProblemnameTOP进程异常\r\nHost: Zabbix serverSeverity: DisasterOriginal problem ID: 127', 2, 3, 'No media defined for user.', 1, 0, None, None)}
+2018-10-21 14:39:49,895 - onrecv_thread ] - INFO: RecvToWrite_Q队列put一条成功
+2018-10-21 14:39:50,416 - onwrite_thread ] - INFO: 监测到队列RecvToWrite_Q有消息，准备将消息写入OnWrite.txt文件
+2018-10-21 14:39:50,416 - onwrite_thread ] - INFO: OnWrite.txt文件写入消息:Problem started at 14:39:43 on 2018.10.21ProblemnameTOP进程异常
+Host: Zabbix serverSeverity: DisasterOriginal problem ID: 127

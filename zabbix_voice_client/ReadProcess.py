@@ -24,23 +24,25 @@ def onEnd(name, completed):
 
 
 def onStart(name):
-    print('starting', name)
+    #print('starting', name)
+    pass
 
 
 def onWord(name, location, length):
     global speed_change,speed
     if status_flag == 1:
-        print('word', name, location, length)
+        #print('word', name, location, length)
+        pass
     else:
         engine.stop()
 
 def onEnd(name, completed):
-    print('finishing', name, completed)  #
-
+    #print('finishing', name, completed)  #
+    pass
 def OnLisenVoiceCmd(cmd_queue):
     global status_flag, volume, speed, speed_change,volume_change
     sk = socket.socket()
-    sk.bind(('127.0.0.1',25008,))
+    sk.bind(('127.0.0.1',25001,))
     sk.listen(5)
     logger.info('监听请求服务运行中')
     conn, addr = sk.accept()
@@ -114,13 +116,15 @@ while True:
                 pass
         try:
             if cmd_msg == 'start':
-                logger.info('语音播放引擎启动,当前播放位置:[line:{0}]'.format(raw_nums))
+                logger.info('语音播放引擎开始启动')
                 with open('OnWrite.txt','r')as f:
                     f.seek(locations,0)
                     lines = f.readlines()
+                    if lines:
+                        raw_nums = len(lines) + 1
                     raw_nums = len(lines)+1
                     locations = f.tell()
-                    logger.info('语音播放引擎启动,当前播放位置:{0}'.format(locations))
+                    logger.info('当前播放位置:[bytes:{0}][line:{1}]'.format(locations,raw_nums))
                     for line in lines:
                         logger.info('语音播放:{0}'.format(line))
                         engine.say(line)
@@ -144,13 +148,14 @@ while True:
         except Exception as e:
             logger.info(e)
     else:
-        logger.info('开始从上次位置[line:{0}]扫描告警文件'.format(locations))
+        logger.info('开始从上次位置[line:{0}]扫描告警文件'.format(raw_nums))
         with open('OnWrite.txt', 'r')as f:
             f.seek(locations, 0)
             lines = f.readlines()
-            raw_nums = len(lines) + 1
+            if lines:
+                raw_nums = raw_nums + len(lines) + 1
             locations = f.tell()
-            logger.info('语音播放引擎运行中,当前播放位置:{0}'.format(locations))
+            logger.info('语音播放引擎持续运行中，当前扫描告警文件最后位置为:[bytes:{0}][line:{1}]'.format(locations,raw_nums))
             for line in lines:
                 logger.info('语音播放:{0}'.format(line))
                 engine.say(line)

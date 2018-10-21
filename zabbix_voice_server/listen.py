@@ -41,7 +41,7 @@ def thread_client(conn,addr):
                     response = str({'head':'101','data':raw}).encode('utf-8')
                     conn.send(response)
                     logger.info('Server send the msg:已完成发送给{0}'.format(addr))
-                    time.sleep(1)
+                    time.sleep(2)
                 response = str({'head': '100', 'data': raws_last}).encode('utf-8')
                 conn.send(response)
                 logger.info('Server send the msg:已完成发送给{0}'.format(addr))

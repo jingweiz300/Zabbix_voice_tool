@@ -51,6 +51,7 @@ class Cust_Log(object):
 import os
 import time
 os.chdir(os.path.dirname(__file__))
+os.chdir('run')
 if os.path.exists('run.log'):
     os.rename('run.log','run_{}.log'.format(time.strftime('%Y%m%d_%H%M%S', time.localtime())))
 logger = Cust_Log('client_run.log', level='info', )

@@ -33,12 +33,19 @@ class ClientWindow(BaseWidget):
         self._VPServerIP    = ControlText('地址', default='127.0.0.1')
         self._VPServerPort  = ControlText('端口',default='25000')
         self._VPPassword    = ControlPassword('密码',default='A')
-        self._VPConnect     = ControlButton('连接')
+        self._VPConnect     = ControlButton('服务连接')
         self._VPConnect.value = self.__RunServerConnect
+
+        self._SServerIP    = ControlText('地址', default='127.0.0.1')
+        self._SServerPort  = ControlText('端口',default='25001')
+        self._SPPassword    = ControlPassword('密码',default='A')
+        self._SPConnect     = ControlButton('语音连接')
+        self._SPConnect.value = self.__RunVoiceConnect
+
         self._VPVolumn     = ControlSlider('音量', default=50, minimum=0, maximum=100)
         self._VPVolumn.changed_event = self.__RunSetVoiceVolum
         self._VPSpeed     = ControlSlider('语速', default=150, minimum=100, maximum=300)
-        self._VPSpeed.changed_event = self.__RunSetVoiceSpeed
+        self._VPSpeed.changed_event = self.__RunVoiceConnect
 
         self._VPCollectMessage = ControlButton('采集')
         self._VPCollectMessage.value = self.__RunCollectMessage
@@ -54,19 +61,12 @@ class ClientWindow(BaseWidget):
 
         self.formset = [
             ('_VPServerIP','_VPServerPort','_VPPassword','_VPConnect',),
+            ('_SServerIP','_SServerPort','_SPPassword','_SPConnect',),
             ('_VPVolumn','_VPSpeed','_VPCollectMessage','_VPBedinVoice',),
             '_AppLog',
             '_VPBottom'
         ]
         self.location = 0
-        try:
-            self.con_voice = socket.socket()
-            self.con_voice.connect(('127.0.0.1',25008,))
-            logger.info('连接到语音模块成功')
-            self.con_voice_success = 1
-        except Exception as e:
-            logger.info('连接到语音模块失败{0}'.format(e))
-            self.alert('连接到语音模块失败{0}'.format(e))
         logger.info('ClientWindow.__init__ 初始化完成')
     def __RunServerConnect(self):
         ip,port = self._VPServerIP.value,int(self._VPServerPort.value)
@@ -85,6 +85,18 @@ class ClientWindow(BaseWidget):
             self.printlog_thread = threading.Thread(name='printlog_thread',target=self.OnAppLog,args=())
             self.printlog_thread.start()
             logger.info('打印日志线程启动成功')
+    def __RunVoiceConnect(self):
+        self.con_voice = socket.socket()
+        try:
+            self.con_voice.connect(('127.0.0.1',25001,))
+            logger.info('连接到语音模块成功')
+            self.con_voice_success = 1
+            self._SPConnect.label = '已连接'
+            self._SPConnect.enabled = False
+            self._SPConnect.init_form()
+        except Exception as e:
+            logger.info('连接到语音模块失败{0}'.format(e))
+            self.alert('连接到语音模块失败{0}'.format(e))
     def __RunCollectMessage(self):
         self.has_loaded = []
         self.RecvToWrite_Q = queue.Queue()
@@ -102,39 +114,30 @@ class ClientWindow(BaseWidget):
                 if self._voice_switch == 1:
                     cmd = 'start'
                     self._VPBedinVoice.label = '暂停'
+
                 else:
                     cmd = 'stop'
                     self._VPBedinVoice.label = '播放'
-                self._VPBedinVoice.init_form()
+                super(ControlButton, self._VPBedinVoice).init_form()
                 self.con_voice.send(cmd.encode('utf-8'))
+                logger.info('发送语音模块开关命令通知成功,当前状态 == {0}'.format(cmd))
             elif self.con_voice_success == 0:
-                self.con_voice = socket.socket()
-                self.con_voice.connect(('127.0.0.1', 25008,))
-                self.con_voice_success = 1
-                self.success('连接到语音模块成功')
-                self._voice_switch = -(self._voice_switch)+1
-                if self._voice_switch == 1:
-                    cmd = 'start'
-                    self._VPBedinVoice.label = '暂停'
-                else:
-                    cmd = 'stop'
-                    self._VPBedinVoice.label = '播放'
-                self._VPBedinVoice.init_form()
-                self.con_voice.send(cmd.encode('utf-8'))
+                self.alert('请连接语音服务，再进行播放尝试')
         except Exception as e:
-            self.alert('连接语音模块失败,请检查：{0}'.format(e))
+            self.alert('播放命令传送失败,请检查：{0}'.format(e))
+
     def __RunSetVoiceVolum(self):
         self._voice_volumns = self._VPVolumn.value
         send_dict = {'volume':self._voice_volumns}
         self.con_voice.send(repr(send_dict).encode('utf-8'))
-
     def __RunSetVoiceSpeed(self):
         self._voice_speed = self._VPSpeed.value
         send_dict = {'speed': self._voice_speed}
         self.con_voice.send(repr(send_dict).encode('utf-8'))
     def OnAppLog(self):
         while True:
-            with open('run.log','r',encoding='utf-8')as f:
+            log_path = os.path.join(os.path.dirname(__file__),'run','run.log')
+            with open('{0}'.format(log_path),'r',encoding='utf-8')as f:
                 f.seek(self.location,0)
                 lines = f.readlines()
                 for line in lines:
@@ -153,7 +156,6 @@ class ClientWindow(BaseWidget):
                     while 1:
                         recv = self.c.recv(1024)
                         self.alert = eval(recv.decode('utf-8'))
-
                         if self.alert['head'] == '101':
                             logger.info('请求获取告警通讯队列完成:{0}'.format(self.alert))
                             self.RecvToWrite_Q.put(self.alert['data'][8])
@@ -188,7 +190,35 @@ class ClientWindow(BaseWidget):
                     break
                 except BrokenPipeError:
                     logger.error('服务器主动断开连接')
-
+    def OnVoiceConnect(self):
+        try:
+            if self.con_voice_success == 1:
+                self._voice_switch = -(self._voice_switch)+1
+                if self._voice_switch == 1:
+                    cmd = 'start'
+                    self._VPBedinVoice.label = '暂停'
+                else:
+                    cmd = 'stop'
+                    self._VPBedinVoice.label = '播放'
+                self._VPBedinVoice.init_form()
+                self.con_voice.send(cmd.encode('utf-8'))
+            elif self.con_voice_success == 0:
+                print('1')
+                self.con_voice.connect(('127.0.0.1', 25001,))
+                print('2')
+                self.con_voice_success = 1
+                self.success('连接到语音模块成功')
+                self._voice_switch = -(self._voice_switch)+1
+                if self._voice_switch == 1:
+                    cmd = 'start'
+                    self._VPBedinVoice.label = '暂停'
+                else:
+                    cmd = 'stop'
+                    self._VPBedinVoice.label = '播放'
+                self._VPBedinVoice.init_form()
+                self.con_voice.send(cmd.encode('utf-8'))
+        except Exception as e:
+            self.alert('连接语音模块失败,请检查：{0}'.format(e))
 
     def OnWrite(self):
         while True:

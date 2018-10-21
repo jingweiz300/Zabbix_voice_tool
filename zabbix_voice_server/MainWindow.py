@@ -81,6 +81,9 @@ class MainWindow(BaseWidget):
                                    charset=self._SQLCharset.value)
             logger.info('数据库连接初始化完成') if self.conn else logger.error('数据库连接失败')
             self.success('连接成功')
+            self._SQLConnect.label = '已连接'
+            self._SQLConnect.enabled = False
+            self._SQLConnect.init_form()
         except:
             logger.error('数据库连接初始化失败，请检查')
             self.alert('连接失败')
@@ -97,7 +100,9 @@ class MainWindow(BaseWidget):
         self.alertlist_thread_b =threading.Thread(name='alertlist_thread_b',target=self.OnAlertList_B,args=())
         self.alertlist_thread_b.start()
         logger.info('告警列表刷新线程B启动成功')
-
+        self._CollectAlerts.label = '采集中'
+        self._CollectAlerts.enabled = False
+        self._CollectAlerts.init_form()
     def OnAlertList_A(self):
         while True:
             if self.event.isSet():
@@ -141,7 +146,8 @@ class MainWindow(BaseWidget):
             #time.sleep(10)
     def OnAppLog(self):
         while True:
-            with open('run.log','r',encoding='utf-8')as f:
+            log_path = os.path.join(os.path.dirname(__file__),'run','run.log')
+            with open('{0}'.format(log_path),'r',encoding='utf-8')as f:
                 f.seek(self.location,0)
                 lines = f.readlines()
                 for line in lines:
